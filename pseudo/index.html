@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+</head>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    a{
+        color: teal;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    a:hover{
+        color:crimson;
+        text-decoration: underline;
+    }
+
+    .btn{
+        background-color: teal;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover{
+        background: blue;
+    }
+
+    input:focus{
+        outline: 2px solid teal;
+    }
+
+    tr:nth-child(even){
+        background: white;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 50%;
+        margin-top: 20px;
+    }
+ 
+    th,td{
+         padding: 2px;
+         border: 1px solid wheat;
+         text-align: left;
+    }
+
+       .features li::before {
+        content: "★ ";
+        color: gold;
+    }
+       
+     
+</style>
+
+<body>
+
+    <h1>
+        Pseudo - class & Pseudo-element Example
+    </h1>
+
+    <p>
+        Visit :
+        <a href="https://example.com">Example Website</a>
+    </p>
+
+
+    <button class="btn">Hover Me</button>
+
+    <h2>
+        Input Focus
+    </h2>
+
+    <input type="text" name="" id=""  placeholder="click here to focus">
+
+    <h2>Student Marks</h2>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>Alice</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Bob</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>David</td>
+            <td>88</td>
+        </tr>
+
+    </table>
+
+
+    <h2>
+        Features
+    </h2>
+
+    <ul class="features">
+        <li>Responsive Design</li>
+           <li> Fast Performance</li>
+              <li>Easy to use</li>
+                 <li>Cross-browser Support</li>
+   </ul>
+
+    
+</body>
+</html>
