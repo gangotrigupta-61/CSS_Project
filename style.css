@@ -1,0 +1,21 @@
+h3{
+    color: aqua;
+    font-size: 18px;
+}
+
+h1,h2{
+    font-family: Arial,sans-serif;
+}
+
+#main-title{
+    color:navy;
+}
+
+.intro{
+    font-weight: bold;
+}
+
+nav a{
+    color: teal;
+    text-decoration: none;
+}
